@@ -1,0 +1,4024 @@
+{
+    "GAMEWINDOW": {
+      "WIDTH": 850,
+      "HEIGHT": 500,
+      "s3GameStroageLink": "assets/games/",
+      "s3GameStroageGeneral": "assets/games/general/"
+    },
+    "GAMEINFO": [{
+        "gameId": "english-capital-letters",
+        "slideData": [{
+            "sliderid": 1,
+            "sliderType": "introSlide",
+            "captions": [{
+              "text": "Alphabetic: B",
+              "bounds": [80, 40, 300, 10],
+              "itemPostion": [0, 0],
+              "style": {
+                "font": "bold 36px 'century-gothic'",
+                "font-family": "gothic",
+                "src": "url('assets/fonts/century-gothic.ttf')",
+                "color": "",
+                "fill": "#000",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle"
+              }
+            }],
+            "backgroundColor": "#fff",
+            
+            "chacraterImages": {
+              "general": [{
+                "itemid": 1,
+                "itemType": "general",
+                "itemName": "tina-stand",
+                "url": "tina-jump.png",
+                "itemPosition": [
+                  "100",
+                  "100"
+                ]
+              }],
+              "seperate": [{
+                "itemid": 1,
+                "itemType": "seperate",
+                "itemName": "a",
+                "url": "b/b.png",
+                "itemPosition": [
+                  "500",
+                  "100"
+                ]
+              }],
+              "button": [{
+                  "itemid": 1,
+                  "itemType": "button",
+                  "itemName": "play-button",
+                  "url": "play.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [
+                    1
+                  ],
+                  "action": "state"
+                },
+                {
+                  "itemid": 2,
+                  "itemType": "button-gray",
+                  "itemName": "play-gray",
+                  "url": "play-gray.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 3,
+                  "itemType": "button-hover",
+                  "itemName": "play-hover",
+                  "url": "play-hover.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                }
+              ],
+              "audio": [{
+                  "audioid": 1,
+                  "itemType": "audio",
+                  "itemName": "intro-audio",
+                  "url": "a/a-intro.mp3",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "audioid": 2,
+                  "itemType": "audio",
+                  "itemName": "mouse-click-audio",
+                  "url": "general/mouse-click.mp3",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            "answer": [{}]
+          },
+          {
+            "sliderid": 2,
+            "sliderType": "pictureSlide",
+            "captions": [{
+              "text": "",
+              "bounds": [
+                80,
+                60,
+                100,
+                200
+              ],
+              "style": {
+                "font": "",
+                "color": ""
+              }
+            }],
+            "backgroundColor": "#fff",
+            "chacraterImages": {
+              "general": [],
+              "seperate": [{
+                  "itemid": 1,
+                  "itemType": "seperate",
+                  "itemName": "b",
+                  "url": "b/b.png",
+                  "itemPosition": [
+                    "380",
+                    "10"
+                  ]
+                },
+                {
+                  "itemid": 2,
+                  "itemType": "seperate",
+                  "itemName": "ant",
+                  "url": "b/ball.jpg",
+                  "itemPosition": [
+                    "360",
+                    "250"
+                  ]
+                },
+                {
+                  "itemid": 3,
+                  "itemType": "seperate",
+                  "itemName": "balltext",
+                  "url": "b/ball-text.png",
+                  "itemPosition": [
+                    "440",
+                    "470"
+                  ]
+                }
+              ],
+              "button": [{
+                  "itemid": 1,
+                  "itemType": "button",
+                  "itemName": "play-button",
+                  "url": "play.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [
+                    1
+                  ],
+                  "action": "state"
+                },
+                {
+                  "itemid": 2,
+                  "itemType": "button-gray",
+                  "itemName": "play-gray",
+                  "url": "play-gray.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                }
+              ],
+              "audio": [{
+                  "audioid": 1,
+                  "itemType": "audio",
+                  "itemName": "ant-audio",
+                  "url": "a/ant.mp3",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "audioid": 2,
+                  "itemType": "audio",
+                  "itemName": "mouse-click-audio",
+                  "url": "general/mouse-click.mp3",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "sliderid": 3,
+            "sliderType": "shootingSlide",
+            "captions": [{
+              "text": "",
+              "bounds": [
+                80,
+                60,
+                100,
+                200
+              ],
+              "style": {
+                "font": "",
+                "color": ""
+              }
+            }],
+            "backgroundColor": "#fff",
+            "chacraterImages": {
+              "general": [{
+                  "itemid": 1,
+                  "itemType": "general",
+                  "itemName": "tina-stand",
+                  "url": "tina-stand.png",
+                  "itemPosition": [
+                    "100",
+                    "100"
+                  ]
+                },
+                {
+                  "itemid": 2,
+                  "itemType": "general",
+                  "itemName": "success",
+                  "url": "tina-jump.png",
+                  "itemPosition": [
+                    "300",
+                    "100"
+                  ]
+                },
+                {
+                  "itemid": 3,
+                  "itemType": "general",
+                  "itemName": "cloud",
+                  "url": "cloud.png",
+                  "itemPosition": [
+                    "350",
+                    "20"
+                  ]
+                },
+                {
+                  "itemid": 4,
+                  "itemType": "general",
+                  "itemName": "cloud",
+                  "url": "cloud.png",
+                  "itemPosition": [
+                    "550",
+                    "40"
+                  ]
+                }
+              ],
+              "seperate": [{
+                "itemid": 1,
+                "itemType": "seperate",
+                "itemName": "monster",
+                "url": "b/b-monster.jpg",
+                "itemPosition": [
+                  "400",
+                  "100"
+                ]
+              }],
+              "button": [{
+                  "itemid": 1,
+                  "itemType": "button",
+                  "itemName": "play-button",
+                  "url": "play.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [
+                    1
+                  ],
+                  "action": "state"
+                },
+                {
+                  "itemid": 2,
+                  "itemType": "button-gray",
+                  "itemName": "play-gray",
+                  "url": "play-gray.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 3,
+                  "itemType": "button",
+                  "itemName": "color-button",
+                  "url": "color.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 4,
+                  "itemType": "button-gray",
+                  "itemName": "color-gray",
+                  "url": "color-gray.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 5,
+                  "itemType": "button",
+                  "itemName": "color-hover-button",
+                  "url": "color-hover.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                }
+              ],
+              "audio": [{
+                  "audioid": 1,
+                  "itemType": "audio",
+                  "itemName": "welcome",
+                  "allowMultiple": "false",
+                  "url": "a/monster-welcome.mp3",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "audioid": 2,
+                  "itemType": "audio",
+                  "itemName": "click",
+                  "url": "a/a-letter.mp3",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "audioid": 3,
+                  "itemType": "audio",
+                  "itemName": "success",
+                  "url": "a/monster-success.mp3",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "audioid": 4,
+                  "itemType": "audio",
+                  "itemName": "colornext",
+                  "url": "a/color-next.wav",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "audioid": 5,
+                  "itemType": "audio",
+                  "itemName": "mouse-click-audio",
+                  "url": "general/mouse-click.mp3",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "sliderid": 4,
+            "sliderType": "paintingSlide",
+            "captions": [{
+              "text": "",
+              "bounds": [
+                80,
+                60,
+                100,
+                200
+              ],
+              "style": {
+                "font": "",
+                "color": ""
+              }
+            }],
+            "backgroundColor": "#fff",
+            "chacraterImages": {
+              "general": [],
+              "seperate": [{
+                  "itemid": 1,
+                  "itemType": "seperate",
+                  "itemName": "b-outlines",
+                  "url": "b/b-outlines.png",
+                  "itemPosition": [
+                    "100",
+                    "50"
+                  ]
+                },
+                {
+                  "itemid": 2,
+                  "itemType": "seperate",
+                  "itemName": "ball-outline",
+                  "url": "b/ball-outline.png",
+                  "itemPosition": [
+                    "400",
+                    "180"
+                  ]
+                }
+              ],
+              "button": [{
+                  "itemid": 1,
+                  "itemType": "button",
+                  "itemName": "color-button",
+                  "url": "color.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [
+                    1
+                  ],
+                  "action": "state"
+                },
+                {
+                  "itemid": 2,
+                  "itemType": "button-gray",
+                  "itemName": "color-gray",
+                  "url": "color-gray.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 3,
+                  "itemType": "button",
+                  "itemName": "play-button",
+                  "url": "play-130.PNG",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                }
+              ],
+              "audio": [{
+                  "audioid": 1,
+                  "itemType": "audio",
+                  "itemName": "welcome",
+                  "url": "a/color-welcome.mp3",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "audioid": 2,
+                  "itemType": "audio",
+                  "itemName": "colornext",
+                  "url": "a/color-next.wav",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "sliderid": 5,
+            "sliderType": "tracingSlide",
+            "captions": [{
+              "text": "",
+              "bounds": [
+                80,
+                60,
+                100,
+                200
+              ],
+              "style": {
+                "font": "",
+                "color": ""
+              }
+            }],
+            "backgroundColor": "#fff",
+            "chacraterImages": {
+              "general": [],
+              "seperate": [{
+                "itemid": 1,
+                "itemType": "seperate",
+                "itemName": "b-trace",
+                "url": "b/b-trace.JPG",
+                "itemPosition": [
+                  "100",
+                  "10"
+                ]
+              }],
+              "button": [{
+                  "itemid": 1,
+                  "itemType": "button",
+                  "itemName": "trace-button",
+                  "url": "trace.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [
+                    1
+                  ],
+                  "action": "state"
+                },
+                {
+                  "itemid": 2,
+                  "itemType": "button-gray",
+                  "itemName": "trace-gray",
+                  "url": "trace-gray.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 3,
+                  "itemType": "button",
+                  "itemName": "play-button",
+                  "url": "play-130.PNG",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                }
+              ],
+              "audio": [{
+                  "audioid": 1,
+                  "itemType": "audio",
+                  "itemName": "welcome",
+                  "url": "a/trace-welcome.mp3",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "audioid": 2,
+                  "itemType": "audio",
+                  "itemName": "playnext",
+                  "url": "a/play-next.wav",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            "answer": [{}]
+          },
+          {
+            "sliderid": 6,
+            "sliderType": "wordSelection",
+            "captions": [{
+              "text": "",
+              "bounds": [
+                80,
+                60,
+                100,
+                200
+              ],
+              "style": {
+                "font": "",
+                "color": ""
+              }
+            }],
+            "backgroundColor": "#fff",
+            "chacraterImages": {
+              "general": [],
+              "seperate": [],
+              "button": [{
+                  "itemid": 1,
+                  "itemType": "button",
+                  "itemName": "outline-word",
+                  "url": "outline-word.png",
+                  "itemPosition": [
+                    "130",
+                    "100"
+                  ],
+                  "audioid": [
+                    1
+                  ],
+                  "action": "state"
+                },
+                {
+                  "itemid": 2,
+                  "itemType": "button",
+                  "itemName": "outline-word",
+                  "url": "outline-word.png",
+                  "itemPosition": [
+                    "130",
+                    "300"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 3,
+                  "itemType": "button",
+                  "itemName": "outline-word",
+                  "url": "outline-word.png",
+                  "itemPosition": [
+                    "410",
+                    "100"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 4,
+                  "itemType": "button",
+                  "itemName": "outline-word",
+                  "url": "outline-word.png",
+                  "itemPosition": [
+                    "410",
+                    "300"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 5,
+                  "itemType": "button",
+                  "itemName": "outline-word-right",
+                  "url": "outline-word-right.png",
+                  "itemPosition": [
+                    "200",
+                    "100"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 6,
+                  "itemType": "button",
+                  "itemName": "outline-word-wrong",
+                  "url": "outline-word-wrong.png",
+                  "itemPosition": [
+                    "200",
+                    "100"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 7,
+                  "itemType": "button",
+                  "itemName": "play-button",
+                  "url": "play.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 8,
+                  "itemType": "button-gray",
+                  "itemName": "play-gray",
+                  "url": "play-gray.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 9,
+                  "itemType": "button",
+                  "itemName": "submit",
+                  "url": "submit.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                },
+                {
+                  "itemid": 10,
+                  "itemType": "button",
+                  "itemName": "submit-gray",
+                  "url": "submit-gray.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                }
+              ],
+              "audio": [{
+                  "audioid": 1,
+                  "itemType": "audio",
+                  "itemName": "welcome",
+                  "url": "a/word-welcome.mp3",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "audioid": 2,
+                  "itemType": "audio",
+                  "itemName": "click",
+                  "url": "a/click-effect.wav",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "audioid": 3,
+                  "itemType": "audio",
+                  "itemName": "playnext",
+                  "url": "a/play-next.wav",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "audioid": 4,
+                  "itemType": "audio",
+                  "itemName": "correctanswer",
+                  "url": "a/correct-answer.mp3",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "audioid": 5,
+                  "itemType": "audio",
+                  "itemName": "wronganswer",
+                  "url": "a/wrong-answer.mp3",
+                  "allowMultiple": "false",
+                  "itemPosition": [
+                    "0",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            "answer": [{}]
+          },
+          {
+            "sliderid": 7,
+            "sliderType": "gameComplete",
+            "captions": [{
+              "text": "",
+              "bounds": [
+                80,
+                60,
+                100,
+                200
+              ],
+              "style": {
+                "font": "",
+                "color": ""
+              }
+            }],
+            "backgroundColor": "#fff",
+            "chacraterImages": {
+              "general": [{
+                "itemid": 1,
+                "itemType": "general",
+                "itemName": "tina-jump",
+                "url": "tina-jump.png",
+                "itemPosition": [
+                  "350",
+                  "100"
+                ],
+                "audioid": [
+                  1
+                ],
+                "action": "state"
+              }],
+              "seperate": [],
+              "button": [{
+                  "itemid": 1,
+                  "itemType": "button",
+                  "itemName": "replay",
+                  "url": "replay.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [
+                    1
+                  ],
+                  "action": "state"
+                },
+                {
+                  "itemid": 2,
+                  "itemType": "button",
+                  "itemName": "replay-gray",
+                  "url": "replay-gray.png",
+                  "itemPosition": [
+                    "700",
+                    "400"
+                  ],
+                  "audioid": [],
+                  "action": ""
+                }
+              ],
+              "audio": [{
+                "audioid": 1,
+                "itemType": "audio",
+                "itemName": "success",
+                "url": "a/game-complete.mp3",
+                "itemPosition": [
+                  "0",
+                  "0"
+                ]
+              }]
+            },
+            "answer": [{}]
+          }
+        ]
+      },
+      {
+        "gameId": "story",
+        "slideData": [{
+            "sliderType": "introSlide",
+            "captions": [{
+              "text": "Emotion Motion",
+              "bounds": [
+                80,
+                60,
+                100,
+                200
+              ],
+              "style": {
+                "font": "",
+                "color": ""
+              }
+            }],
+            "backgroundColor": "#fff",
+            "chacraterImages": {
+              "general": [],
+        
+            "seperate": [{
+              "itemid": 1,
+              "itemType": "seperate",
+              "itemName": "emotion",
+              "url": "emotion/bg-wood-light.png",
+              "itemPosition": [0, 0]
+            },{
+            "itemid": 2,
+            "itemType": "seperate",
+            "itemName": "happyi",
+            "url": "emotion/happyi.jpg",
+            "itemPosition": [400,100]
+          },{
+            "itemid": 3,
+            "itemType": "seperate",
+            "itemName": "sadi",
+            "url": "emotion/sadi.jpg",
+            "itemPosition": [400,350]
+          },{
+            "itemid": 4,
+            "itemType": "seperate",
+            "itemName": "shocki",
+            "url": "emotion/scaredi.jpg",
+            "itemPosition": [260,220]
+          },
+          {
+            "itemid": 5,
+            "itemType": "seperate",
+            "itemName": "angryi",
+            "url": "emotion/angryi.jpg",
+            "itemPosition": [530,220]
+          },
+          {
+            "itemid": 6,
+            "itemType": "general",
+            "itemName": "tina-stand",
+            "url": "general/tina-stand.png",
+            "itemPosition": [
+              "30",
+              "100"
+            ]
+          }
+          
+            
+          
+          
+          ],
+          
+                
+            "button": [{
+                "itemid": 1,
+                "itemType": "button",
+                "itemName": "play-button",
+                "url": "play.png",
+                "itemPosition": [
+                  "700",
+                  "400"
+                ],
+                "audioid": [
+                  1
+                ],
+                "action": "state"
+              },
+              {
+                "itemid": 2,
+                "itemType": "button-gray",
+                "itemName": "play-gray",
+                "url": "play-gray.png",
+                "itemPosition": [
+                  "700",
+                  "400"
+                ],
+                "audioid": [],
+                "action": ""
+              },
+              {
+                "itemid": 3,
+                "itemType": "button-hover",
+                "itemName": "play-hover",
+                "url": "play-hover.png",
+                "itemPosition": [
+                  "700",
+                  "400"
+                ],
+                "audioid": [],
+                "action": ""
+              }
+            ],
+            "audio": [{
+                "audioid": 1,
+                "itemType": "audio",
+                "itemName": "intro-audio",
+                "url": "emotion/s3.mp3",
+                "allowMultiple": "false",
+                "itemPosition": [
+                  "0",
+                  "0"
+                ]
+              },
+              {
+                "audioid": 2,
+                "itemType": "audio",
+                "itemName": "mouse-click-audio",
+                "url": "general/mouse-click.mp3",
+                "allowMultiple": "false",
+                "itemPosition": [
+                  "0",
+                  "0"
+                ]
+              }
+            ]
+            }
+          }
+
+          
+            
+          ]
+          },{
+            "gameId": "alphabet-matching",
+            "slideData": [{
+                "sliderid": 1,
+                "sliderType": "introSlide",
+                "captions": [{
+                  "text": "Alphabet Matching",
+                  "bounds": [80, 40, 300, 10],
+                  "itemPostion": [0, 0],
+                  "style": {
+                    "font": "bold 36px 'century-gothic'",
+                    "font-family": "gothic",
+                    "src": "url('assets/fonts/century-gothic.ttf')",
+                    "color": "",
+                    "fill": "#000",
+                    "boundsAlignH": "center",
+                    "boundsAlignV": "middle"
+                  }
+                }],
+                "backgroundColor": "#fff",
+                
+                "chacraterImages": {
+                  "general": [{
+                    "itemid": 1,
+                    "itemType": "general",
+                    "objectType":"image",
+                    "itemName": "tina-stand",
+                    "url": "tina-jump.png",
+                    "itemPosition": [
+                      "100",
+                      "100"
+                    ]
+                  }],
+                  "seperate": [{
+                    "itemid": 1,
+                    "itemType": "seperate",
+                    "itemName": "alphabet-matching",
+                    "objectType":"image",
+                    "url": "alphabet-matching/Aa/aaa.jpg",
+                    "itemPosition": [
+                      "500",
+                      "100"
+                    ]
+                  }],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    },
+                    {
+                      "itemid": 3,
+                      "itemType": "button-hover",
+                      "objectType":"button",
+                      "itemName": "play-hover",
+                      "url": "play-hover.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "intro-audio",
+                      "url": "a/a-intro.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              
+              },
+              {
+                "sliderid": 2,
+                "sliderType": "state-a-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-small",
+                      "url": "alphabet-matching/Aa/aaa.jpg",
+                      "itemPosition": [
+                        "380",
+                        "10"
+                      ]
+                    },
+                    {
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Aa/aaa.jpg",
+                      "itemPosition": [
+                        "380",
+                        "10"
+                      ]
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "ant",
+                      
+                      "url": "alphabet-matching/Aa/ant.jpg",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "sliderid": 3,
+                "sliderType": "state-b-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Bb/big-b.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Bb/small-b.png",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "ant",
+                      
+                      "url": "alphabet-matching/Bb/ball.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "sliderid": 4,
+                "sliderType": "state-c-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Cc/big-c.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Cc/small-c.jpg",
+                    "itemPosition": [
+                      "500",
+                      "25"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "cat",
+                      
+                      "url": "alphabet-matching/Cc/cat.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "sliderid": 5,
+                "sliderType": "state-d-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Dd/big-d.png",
+                      "itemPosition": [
+                        "300",
+                        "0"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Dd/small-d.jpg",
+                    "itemPosition": [
+                      "500",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "cat",
+                      
+                      "url": "alphabet-matching/Dd/dog.png",
+                      "itemPosition": [
+                        "360",
+                        "230"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid": 6,
+                "sliderType": "state-e-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Ee/big-e.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Ee/small-e.png",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "egg",
+                      
+                      "url": "alphabet-matching/Ee/egg.png",
+                      "itemPosition": [
+                        "320",
+                        "300"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid": 7,
+                "sliderType": "state-f-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Ff/big-f.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Ff/small-f.png",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "fox",
+                      
+                      "url": "alphabet-matching/Ff/fox.png",
+                      "itemPosition": [
+                        "300",
+                        "270"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },
+            
+              {
+                "sliderid": 8,
+                "sliderType": "state-g-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Gg/big-g.png",
+                      "itemPosition": [
+                        "260",
+                        "0"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Gg/small-g.png",
+                    "itemPosition": [
+                      "500",
+                      "0"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "cat",
+                      
+                      "url": "alphabet-matching/Gg/girl.png",
+                      "itemPosition": [
+                        "360",
+                        "240"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "sliderid": 9,
+                "sliderType": "state-h-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Hh/big-h.png",
+                      "itemPosition": [
+                        "300",
+                        "0"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Hh/small-h.jpg",
+                    "itemPosition": [
+                      "470",
+                      "0"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "hat",
+                      
+                      "url": "alphabet-matching/Hh/hat.png",
+                      "itemPosition": [
+                        "260",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },
+    
+              {
+                "sliderid": 10,
+                "sliderType": "state-i-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Ii/big-i.png",
+                      "itemPosition": [
+                        "350",
+                        "0"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Ii/small-i.png",
+                    "itemPosition": [
+                      "470",
+                      "0"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "ink",
+                      
+                      "url": "alphabet-matching/Ii/ink.png",
+                      "itemPosition": [
+                        "360",
+                        "240"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "sliderid": 11,
+                "sliderType": "state-j-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Jj/big-j.png",
+                      "itemPosition": [
+                        "330",
+                        "0"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Jj/small-j.png",
+                    "itemPosition": [
+                      "490",
+                      "0"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "jam",
+                      
+                      "url": "alphabet-matching/Jj/jam.png",
+                      "itemPosition": [
+                        "330",
+                        "260"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "sliderid": 12,
+                "sliderType": "state-k-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Kk/big-k.png",
+                      "itemPosition": [
+                        "300",
+                        "0"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Kk/small-k.png",
+                    "itemPosition": [
+                      "470",
+                      "0"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "kite",
+                      
+                      "url": "alphabet-matching/Kk/kite.png",
+                      "itemPosition": [
+                        "360",
+                        "230"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid": 13,
+                "sliderType": "state-l-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Ll/big-l.png",
+                      "itemPosition": [
+                        "300",
+                        "0"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Ll/small-l.jpg",
+                    "itemPosition": [
+                      "450",
+                      "0"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "lamp",
+                      
+                      "url": "alphabet-matching/Ll/lamp.png",
+                      "itemPosition": [
+                        "360",
+                        "230"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid": 14,
+                "sliderType": "state-m-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Mm/big-m.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Mm/small-m.png",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "mat",
+                      
+                      "url": "alphabet-matching/Mm/mat.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid": 15,
+                "sliderType": "state-n-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Nn/big-n.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Nn/small-n.jpg",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "nut",
+                      
+                      "url": "alphabet-matching/Nn/nut.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid": 16,
+                "sliderType": "state-o-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Oo/big-o.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Oo/small-o.png",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "owl",
+                      
+                      "url": "alphabet-matching/Oo/owl.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid": 17,
+                "sliderType": "state-p-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Pp/big-p.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Pp/small-p.png",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "pen",
+                      
+                      "url": "alphabet-matching/Pp/pen.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid":18,
+                "sliderType": "state-q-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Qq/big-q.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Qq/small-q.png",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "cat",
+                      
+                      "url": "alphabet-matching/Qq/queen.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid":19,
+                "sliderType": "state-r-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Rr/big-r.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Rr/small-r.jpg",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "rose",
+                      
+                      "url": "alphabet-matching/Rr/rose.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid": 20,
+                "sliderType": "state-s-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Ss/big-s.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Ee/small-s.png",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "socks",
+                      
+                      "url": "alphabet-matching/Ss/socks.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid":21,
+                "sliderType": "state-t-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Tt/big-t.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Tt/small-t.png",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "train",
+                      
+                      "url": "alphabet-matching/Tt/train.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid":22,
+                "sliderType": "state-u-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Uu/big-u.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Uu/small-u.jpg",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "umbrella",
+                      
+                      "url": "alphabet-matching/Uu/umbrella.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid": 23,
+                "sliderType": "state-v-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Vv/big-v.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Vv/small-v.jpg",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "van",
+                      
+                      "url": "alphabet-matching/Vv/van.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid": 24,
+                "sliderType": "state-w-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Ww/big-w.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Ww/small-w.jpg",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "watch",
+                      
+                      "url": "alphabet-matching/Ww/watch.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid": 25,
+                "sliderType": "state-x-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Xx/big-x.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Xx/small-x.png",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "cat",
+                      
+                      "url": "alphabet-matching/Xx/Xylinx.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid":26,
+                "sliderType": "state-y-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Yy/big-y.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Yy/small-y.jpg",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "yoga",
+                      
+                      "url": "alphabet-matching/Yy/yoga.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              },{
+                "sliderid": 27,
+                "sliderType": "state-z-slide",
+                "captions": [{
+                  "text": "",
+                  "bounds": [
+                    80,
+                    60,
+                    100,
+                    200
+                  ],
+                  "style": {
+                    "font": "",
+                    "color": ""
+                  }
+                }],
+                "backgroundColor": "#fff",
+                "chacraterImages": {
+                  "general": [],
+                  "seperate": [{
+                      "itemid": 1,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "alphabet-big",
+                      "url": "alphabet-matching/Zz/big-z.png",
+                      "itemPosition": [
+                        "300",
+                        "10"
+                      ]
+                    },{
+                    "itemid": 2,
+                    "itemType": "seperate",
+                    "objectType":"image",
+                    "itemName": "alphabet-small",
+                    "url": "alphabet-matching/Zz/small-z.png",
+                    "itemPosition": [
+                      "450",
+                      "10"
+                    ]
+                  },
+                    {
+                      "itemid": 3,
+                      "itemType": "seperate",
+                      "objectType":"image",
+                      "itemName": "zent",
+                      
+                      "url": "alphabet-matching/Zz/zent.png",
+                      "itemPosition": [
+                        "360",
+                        "250"
+                      ]
+                    }
+                    
+                  ],
+                  "button": [{
+                      "itemid": 1,
+                      "itemType": "button",
+                      "objectType":"button",
+                      "itemName": "play-button",
+                      "url": "play.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [
+                        1
+                      ],
+                      "action": "state"
+                    },
+                    {
+                      "itemid": 2,
+                      "itemType": "button-gray",
+                      "objectType":"button",
+                      "itemName": "play-gray",
+                      "url": "play-gray.png",
+                      "itemPosition": [
+                        "700",
+                        "400"
+                      ],
+                      "audioid": [],
+                      "action": ""
+                    }
+                  ],
+                  "audio": [{
+                      "audioid": 1,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "ant-audio",
+                      "url": "a/ant.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "audioid": 2,
+                      "itemType": "audio",
+                      "objectType":"audio",
+                      "itemName": "mouse-click-audio",
+                      "url": "general/mouse-click.mp3",
+                      "allowMultiple": "false",
+                      "itemPosition": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              }
+              ]
+              }
+      ],
+        "emotion": [{
+          "sliderType": "emotionSelectionSlide",
+          "answer": [
+            1
+          ]
+        },
+        {
+          "sliderType": "SelectPictureGameSlide",
+          "answer": [
+            3
+          ]
+        },
+        {
+          "sliderType": "SelectScaredGameSlide",
+          "answer": [
+            3
+          ]
+        },
+        {
+          "sliderType": "SelectSadGameSlide",
+          "answer": [
+            1
+          ]
+        }
+      ]
+    
+    }
+  
+  
+
+
+        
+              
+              
+           
+           
+           
+    
+          
+      
+    
+   
+ 

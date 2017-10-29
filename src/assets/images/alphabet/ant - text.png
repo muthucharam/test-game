@@ -1,0 +1,117 @@
+(obj) {
+  if (promise.isPromise(obj)) {
+    return obj.then(toWireValue);
+  }
+  return promise.fulfilled(convertValue(obj));
+}
+
+
+function convertValue(value) {
+  if (value === void 0 || value === null) {
+    return value;
+  }
+
+  if (typeof value === 'boolean'
+      || typeof value === 'number'
+      || typeof value === 'string') {
+    return value;
+  }
+
+  if (Array.isArray(value)) {
+    return convertKeys(value);
+  }
+
+  if (typeof value === 'function') {
+    return '' + value;
+  }
+
+  if (typeof value[Symbols.serialize] === 'function') {
+    return toWireValue(value[Symbols.serialize]());
+  } else if (typeof value.toJSON === 'function') {
+    return toWireValue(value.toJSON());
+  }
+  return convertKeys(value);
+}
+
+
+function convertKeys(obj) {
+  const isArray = Array.isArray(obj);
+  const numKeys = isArray ? obj.length : Object.keys(obj).length;
+  const ret = isArray ? new Array(numKeys) : {};
+  if (!numKeys) {
+    return promise.fulfilled(ret);
+  }
+
+  let numResolved = 0;
+
+  function forEachKey(obj, fn) {
+    if (Array.isArray(obj)) {
+      for (let i = 0, n = obj.length; i < n; i++) {
+        fn(obj[i], i);
+      }
+    } else {
+      for (let key in obj) {
+        fn(obj[key], key);
+      }
+    }
+  }
+
+  return new promise.Promise(function(done, reject) {
+    forEachKey(obj, function(value, key) {
+      if (promise.isPromise(value)) {
+        value.then(toWireValue).then(setValue, reject);
+      } else {
+        value = convertValue(value);
+        if (promise.isPromise(value)) {
+          value.then(toWireValue).then(setValue, reject);
+        } else {
+          setValue(value);
+        }
+      }
+
+      function setValue(value) {
+        ret[key] = value;
+        maybeFulfill();
+      }
+    });
+
+    function maybeFulfill() {
+      if (++numResolved === numKeys) {
+        done(ret);
+      }
+    }
+  });
+}
+
+
+/**
+ * Converts a value from its JSON representation according to the WebDriver wire
+ * protocol. Any JSON object that defines a WebElement ID will be decoded to a
+ * {@link WebElement} object. All other values will be passed through as is.
+ *
+ * @param {!WebDriver} driver The driver to use as the parent of any unwrapped
+ *     {@link WebElement} values.
+ * @param {*} value The value to convert.
+ * @return {*} The converted value.
+ */
+function fromWireValue(driver, value) {
+  if (Array.isArray(value)) {
+    value = value.map(v => fromWireValue(driver, v));
+  } else if (WebElement.isId(value)) {
+    let id = WebElement.extractId(value);
+    value = new WebElement(driver, id);
+  } else if (value && typeof value === 'object') {
+    let result = {};
+    for (let key in value) {
+      if (value.hasOwnProperty(key)) {
+        result[key] = fromWireValue(driver, value[key]);
+      }
+    }
+    value = result;
+  }
+  return value;
+}
+
+
+/**
+ * Creates a new WebDriver cl
